@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/transactions"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Transactions" />
+
+    <item
+        android:id="@+id/stat"
+        android:icon="@drawable/ic_stats"
+        android:title="Stats" />
+    <item
+        android:id="@+id/accounts"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Accounts" />
+
+</menu>

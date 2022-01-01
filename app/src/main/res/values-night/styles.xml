@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="Widget.Theme.Expense.MyView" parent="">
+        <item name="shadowColor">@color/black</item>
+    </style>
+</resources>

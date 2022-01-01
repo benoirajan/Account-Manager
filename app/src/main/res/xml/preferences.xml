@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:key="screen">
+
+    <EditTextPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:summary="Budget set for each month"
+        app:key="budget"
+        app:title="Budget" />
+
+    <ListPreference
+        android:icon="@drawable/ic_stats"
+        android:summary="Currency symbol shown with amount"
+        app:defaultValue="$"
+        app:entries="@array/currency_entries"
+        app:entryValues="@array/currency_values"
+        app:key="currency"
+        app:title="Default Currency" />
+
+    <Preference
+        android:icon="@android:drawable/ic_menu_add"
+        app:key="account"
+        app:summary="Add or edit"
+        app:title="Add Accounts" />
+
+    <Preference
+        android:icon="@android:drawable/ic_input_add"
+        app:key="category"
+        app:summary="Add or edit"
+        app:title="Add Category" />
+
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="PieChart">
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="shadowColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="Gas">
+        <attr name="layoutColor" format="color"/>
+    </declare-styleable>
+</resources>

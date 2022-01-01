@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/transactions">
+
+    <activity
+        android:id="@+id/transactions"
+        android:name="ben.e.ui.tabs.TransactionActivity"
+        android:label="Transactions"
+        tools:layout="@layout/tab_root" />
+
+    <fragment
+        android:id="@+id/stat"
+        android:name="ben.e.ui.stats.StatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/stats" />
+    <fragment
+        android:id="@+id/accounts"
+        android:name="ben.e.ui.acc.AccountsViewFragment"
+        android:label="Accounts"
+        tools:layout="@layout/accounts_list" />
+
+
+</navigation>

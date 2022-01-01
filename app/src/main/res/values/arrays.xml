@@ -1,0 +1,22 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="currency_entries">
+        <item>$ Dollar</item>
+        <item>&#162; Cent</item>
+        <item>&#163; Pound</item>
+        <item>&#165; Yen</item>
+        <item>&#8356; Lira</item>
+        <item>&#128; Euro</item>
+        <item>&#x20b9; Rupee</item>
+    </string-array>
+
+    <string-array name="currency_values">
+        <item>$</item>
+        <item>&#162;</item>
+        <item>&#163;</item>
+        <item>&#165;</item>
+        <item>&#8356;</item>
+        <item>&#128;</item>
+        <item>&#x20b9;</item>
+    </string-array>
+</resources>

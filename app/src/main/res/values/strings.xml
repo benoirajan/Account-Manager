@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Account Manager</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_nav">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add">Manage Transactions</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be > 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="_500">500$</string>
+    <string name="full_date">2021.06<br /> Mon </string>
+    <string name="category">Category</string>
+    <string name="note">Note</string>
+    <string name="account">Account</string>
+    <string name="income_f">Income \n%.1f%s</string>
+    <string name="expense_f">Expense \n%.1f%s</string>
+    <string name="total_f">Total \n%.1f%s</string>
+    <string name="set_remainder">Set Remainder</string>
+    <string name="del">Delete</string>
+    <string name="add_or_edit">Add or Edit</string>
+    <string name="amount">Amount</string>
+    <string name="name">Name</string>
+</resources>

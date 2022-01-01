@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Widget.Theme.Expense.MyView" parent="">
+        <item name="shadowColor">#191818</item>
+    </style>
+
+    <style name="NavStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
+</resources>
