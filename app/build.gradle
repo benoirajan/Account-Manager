@@ -8,6 +8,7 @@ android {
     defaultConfig {
         applicationId "ben.e"
         minSdkVersion 28
+        //noinspection OldTargetApi
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
