@@ -44,9 +44,9 @@
     <string name="category">Category</string>
     <string name="note">Note</string>
     <string name="account">Account</string>
-    <string name="income_f">Income \n%.1f%s</string>
-    <string name="expense_f">Expense \n%.1f%s</string>
-    <string name="total_f">Total \n%.1f%s</string>
+    <string formatted="true" name="income_f">Income \n%.1f%s</string>
+    <string formatted="true" name="expense_f">Expense \n%.1f%s</string>
+    <string formatted="true" name="total_f">Total \n%.1f%s</string>
     <string name="set_remainder">Set Remainder</string>
     <string name="del">Delete</string>
     <string name="add_or_edit">Add or Edit</string>
